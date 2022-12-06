@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <section class="sub-header">
+    <nav>
+        <!-- <a href="index.html"><img src="LOGO" alt=""></a> -->
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+   <h1>About Us</h1>
+
+   </section> 
+
+   <!-- --------about us content------ -->
+   <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest University</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente odio in similique vel iure fugit ex voluptatibus at placeat magni! Doloremque molestiae suscipit, doloribus iste expedita voluptatibus mollitia delectus placeat!</p>
+            <a href="">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="" alt="">
+        </div>
+      </div>
+   </section>
+
+ 
+
+
+<!-- --------footer------ -->
+
+<section class="footer">
+
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quaerat!</p>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p>Mary Faith <i class="fa fa-heart-o"></i></p>
+</section>
+
+
+
+
+<!-- -------js for toggle menu------ -->
+
+<script>
+
+    let navLinks =document.getElementById("nav-links");
+    function showMenu(){
+        navLinks.style.right = 0;
+
+    }
+    function hideMenu(){
+        navLinks.style.right = -200;
+
+    }
+
+    let facilitiesUpperCase = document.getElementById("facilities-uc");
+    facilitiesUpperCase.toUpperCase();
+
+</script>
+</body>
+</html>
